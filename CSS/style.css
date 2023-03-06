@@ -144,6 +144,19 @@ svg {
   animation: animate 5s linear infinite;
 }
 
+.Ppa{
+   
+        font-family: 'Kalam', cursive;
+        
+        background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      animation: animate 5s linear infinite;
+
+}
+
 @keyframes animate {
     0% { background-position: 0 0; }
     100% { background-position: 100% 0; }
